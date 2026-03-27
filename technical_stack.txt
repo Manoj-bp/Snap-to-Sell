@@ -1,0 +1,35 @@
+Snap-to-Sell - Unified "High-Density" Technical Stack
+
+1. CORE ARCHITECTURE
+---------------------
+- DESIGN PATTERN: Unified Single-File per Tier (High-Density)
+- BACKEND: FastAPI (Python 3.8+) - Single entry point main.py
+- FRONTEND: React 18 (Vite) - Single entry point App.jsx
+- COMMUNICATION: RESTful JSON over HTTP (Axios)
+
+2. ARTIFICIAL INTELLIGENCE & COMPUTER VISION
+---------------------------------------------
+- BACKGROUND REMOVAL: 'rembg' library (U2-Net deep learning model)
+- OBJECT FOCUS (SMART CROP): OpenCV Canny Edge Detection & NumPy coordinate thresholding
+- IMAGE CLARITY (AI BOOST): OpenCV CLAHE (Contrast Limited Adaptive Histogram Equalization)
+- SHARPENING ENGINE: OpenCV Unsharp Masking
+- IMAGE MANIPULATION: Pillow (PIL) for resampling, padding, and RGBA-to-RGB conversion
+- AUTO DESCRIPTION: Google Gemini Pro Vision API (Implementation Stub)
+
+3. FRONTEND & UX
+-----------------
+- STYLING: Tailwind CSS 3 (Custom Glassmorphism design system)
+- ICONS: Lucide-React (High-fidelity SVG iconography)
+- STATE MANAGEMENT: React Hooks (useState, useRef) for real-time UI updates
+- ASYNC HANDLING: Parallel batch uploading with status indicators
+
+4. DEPLOYMENT & TOOLS
+----------------------
+- SERVER: Uvicorn (ASGI)
+- BUILD TOOL: Vite
+- DEPENDENCIES: Managed via requirements.txt and package.json
+- TEMP STORAGE: Automated background cleanup for processed image files
+
+--------------------------------------------------------------------------------
+This consolidated stack provides a professional, "lean" architecture optimized
+for high-speed marketplace photography processing.
